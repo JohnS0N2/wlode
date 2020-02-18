@@ -126,7 +126,7 @@ window.onload = function() {
 		answers.style.display = 'none';
 		questionNumber.style.display = 'none';
 		questionText.style.display = 'none';
-		question.innerHTML = 'Analysing your results ...';
+		question.innerHTML = 'Analyse Ihrer Ergebnisse ...';
 		setTimeout(showCongratulations, 3000);
 	};
 
@@ -146,7 +146,7 @@ window.onload = function() {
 				document.location.href = REDIRECT_LINK;
 				fbq('track', 'FinishedQuiz');
 				console.log('redirecting...');
-				question.innerHTML = '<a href="' + REDIRECT_LINK + '">Klicken Sie hier, um jetzt dorthin zu gehen und das Warten überspringen.</a>';
+				question.innerHTML = '<a href="' + REDIRECT_LINK + '">Klicken Sie hier, um jetzt dorthin zu gehen.</a>';
 			}
 		};
 

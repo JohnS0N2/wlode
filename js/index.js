@@ -4,10 +4,7 @@ window.onload = function() {
 	var queryString = window.location.search.slice(1);
 	queryString = queryString.split('#')[0];
 	var arr = queryString.split('&');
-	var tidRawString = arr.find(el => el.includes('tid'));
-	var tid = tidRawString && tidRawString.split('=')[1];
-	var tidString = tid ? '?tid=' + tid : '';
-	var REDIRECT_LINK = 'https://8679cp1bo998hs4h1ko1rkslfx.hop.clickbank.net/' + tidString;
+	var REDIRECT_LINK = 'https://rog0n.bemobtrk.com/click/1?ns=c%3Df7587f16-9291-4621-af07-147886d1425e..l%3De04fa333-5e3b-4931-a29e-aa71ccd09d5e..a%3D0..b%3D0';
 	document.body.style.overflow = 'unset';
 	document.body.style.height = 'unset';
 	var quiz = document.querySelector('.quiz-card');
@@ -140,16 +137,16 @@ window.onload = function() {
 		var update = function update() {
 			redirectCounter += 1;
 			question.innerHTML =
-				'Congratulations!<br><br><span style="font-size: 0.9em;font-weight:400">We have analyzed your information and got you the best program that will awaken your weight loss doubling molecule.<br><br>Please watch the video to know more about this fascinating breakthrough.<br><br>You will be redirected to the video in <b>' +
-				(15 - redirectCounter) +
-				' </b>seconds.</span>';
+				'Glückwunsch!<br><br><span style="font-size: 0.9em;font-weight:400">Wir haben Ihre Antworten analysiert und sie mit der besten Lösung für Ihre biologischen und persönlichen Prädispositionen abgeglichen.<br><br>Anschließend werden Sie direkt auf die Website weitergeleitet, die Ihre Gewichtsverlustmoleküle aufweckt.<br><br> Umleitung in <b>' +
+				(12 - redirectCounter) +
+				' </b>Sekunde(n).</span>';
 
-			if (redirectCounter === 15) {
+			if (redirectCounter === 12) {
 				clearCounterInterval();
 				document.location.href = REDIRECT_LINK;
 				fbq('track', 'FinishedQuiz');
 				console.log('redirecting...');
-				question.innerHTML = '<a href="' + REDIRECT_LINK + '">Click here to watch the video.</a>';
+				question.innerHTML = '<a href="' + REDIRECT_LINK + '">Klicken Sie hier, um jetzt dorthin zu gehen und das Warten überspringen.</a>';
 			}
 		};
 

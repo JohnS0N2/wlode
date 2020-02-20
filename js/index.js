@@ -137,7 +137,7 @@ window.onload = function() {
 		var update = function update() {
 			redirectCounter += 1;
 			question.innerHTML =
-				'Glückwunsch!<br><br><span style="font-size: 0.9em;font-weight:400">Wir haben Ihre Antworten analysiert und sie mit der besten Lösung für Ihre biologischen und persönlichen Prädispositionen abgeglichen.<br><br>Anschließend werden Sie direkt auf die Website weitergeleitet, die Ihre Gewichtsverlustmoleküle aufweckt.<br><br> Umleitung in <b>' +
+				'Glückwunsch!<br><br><span style="font-size: 0.9em;font-weight:400">Wir haben Ihre Antworten analysiert und sie mit der besten Lösung für Ihre biologischen und persönlichen Prädispositionen abgeglichen.<br><br>Auf der Grundlage Ihrer Antworten werden wir Sie nun zu einem Angebot weiterleiten, von dem wir glauben, dass für Sie am besten geeignet ist und Ihre Gewichtsverlustmoleküle aufweckt.<br><br> Umleitung in <b>' +
 				(12 - redirectCounter) +
 				' </b>Sekunde(n).</span>';
 

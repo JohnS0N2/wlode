@@ -242,17 +242,6 @@ div {
 	transform: scale(1);
 }
 
-.blockquote {
-	background-color: #fff;
-	border-left: none;
-	padding: 60px 35px 50px;
-	margin: 40px 0 30px;
-	position: relative;
-	text-align: center;
-	clear: both;
-	border-radius: 6px;
-}
-
 div.wow_box {
     text-align: center;
     margin: 0 auto;
@@ -406,6 +395,17 @@ div.wow_box .headline {
 	font-size: 20px;
 
 	line-height: 35px;
+}
+
+.limiting-factor-text .blockquote {
+	background-color: #fff;
+	border-left: none;
+	padding: 60px 35px 50px;
+	margin: 40px 0 30px;
+	position: relative;
+	text-align: center;
+	clear: both;
+	border-radius: 6px;
 }
 
 .final-words {

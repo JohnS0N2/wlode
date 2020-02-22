@@ -247,6 +247,17 @@ div {
 	transform: scale(1);
 }
 
+.blockquote {
+	background-color: #efefef;
+	border-left: none;
+	padding: 60px 35px 50px;
+	margin: 40px 0 30px;
+	position: relative;
+	text-align: center;
+	clear: both;
+	border-radius: 6px;
+}
+
 /* FOOTER */
 
 .footer {

@@ -6,11 +6,6 @@ body {
 	scroll-behavior: smooth;
 }
 
-body {
-	overflow: hidden;
-	height: 100vh;
-}
-
 div {
 	box-sizing: border-box;
 }

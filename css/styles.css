@@ -258,6 +258,39 @@ div {
 	border-radius: 6px;
 }
 
+div.wow_box {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    position: relative;
+    border: 2px solid #303030;
+	border-radius: 15px;
+	height: auto;
+	box-sizing: initial;
+	vertical-align: top;
+	color:#000;
+}
+
+div.wow_box .headline {
+    position: absolute;
+    top: -23px;
+    left: 36px;
+    display: inline-block;
+    padding: 0 7px 0 5px;
+    background: #fff;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.5;
+	color:#303030;
+}
+
 /* FOOTER */
 
 .footer {
